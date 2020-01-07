@@ -22,6 +22,20 @@ function Dashboard(props) {
           >
             foul
           </button>
+          <button
+            onClick={() => {
+              props.outSetter();
+            }}
+          >
+            out
+          </button>
+          <button
+            onClick={() => {
+              props.strikeSetter();
+            }}
+          >
+            strike
+          </button>
         </div>
       </section>
     </div>
